@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-#Created by: Markus Constantino with help from Matt Creel
+#Created by: Markus Constantino
 import argparse
 import os
 import socket
