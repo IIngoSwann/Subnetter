@@ -69,7 +69,7 @@ def subnetMaskingAndDuplicateRemoval(addresses, subnetmask):
 def writeToOutputFile(mylist, output_file):
     if output_file: # If the user wants to write to a designated output file
         with open(output_file, 'w') as out:
-            out.writelines(mylist)
+            out.write("\n".join(mylist))
         print('Output has been written to a file.')
     else:
         print("Masking complete... results are shown below.\n")
